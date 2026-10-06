@@ -405,8 +405,17 @@ void loop() {
 
   sampleCount++;
 
-  // Leads-off detection
-  if (digitalRead(LO_PLUS) == 1 || digitalRead(LO_MINUS) == 1) {
+  // Leads-off detection with debounce (requires 25 consecutive samples / ~100ms)
+  static int leadsOffCounter = 0;
+  bool loDetected = (digitalRead(LO_PLUS) == 1 || digitalRead(LO_MINUS) == 1);
+
+  if (loDetected) {
+    if (leadsOffCounter < 30) leadsOffCounter++;
+  } else {
+    if (leadsOffCounter > 0) leadsOffCounter--;
+  }
+
+  if (leadsOffCounter >= 25) {
     static unsigned long lastLeadsOffPrint = 0;
     unsigned long nowLeadsOff = millis();
     if (nowLeadsOff - lastLeadsOffPrint >= 1000) {
@@ -419,15 +428,6 @@ void loop() {
     portENTER_CRITICAL(&dataMux);
     leadsOffNow = true;
     portEXIT_CRITICAL(&dataMux);
-    // Reset all raw-sample-derived state (filters, MWI, excursion,
-    // search-back ring) via resetFilterState() - see its comment.
-    // SPKI/NPKI/thresholds/avgPeakAmplitude/avgRR are left alone; that
-    // calibration is still valid after a brief disconnect.
-    // lastPeakTime=0 is the sketch's existing "no prior beat" sentinel
-    // (see registerRPeak()), so the next confirmed peak after
-    // reconnection is automatically treated like the very first beat:
-    // its timestamp is recorded but no RR is computed against the
-    // stale pre-disconnect timestamp.
     resetFilterState();
     lastPeakTime = 0;
     return;
@@ -491,6 +491,9 @@ void processSample(int raw) {
   Serial.print(mwi, 1);
   Serial.print(",");
   Serial.println(signalThreshold, 1);
+#else
+  // Stream filtered ECG sample for webSerialService / ECG chart
+  Serial.println(lp_out, 2);
 #endif
 
   detectPeak(mwi, candidateSlope, now);
