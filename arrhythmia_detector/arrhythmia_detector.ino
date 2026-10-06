@@ -37,6 +37,7 @@
   ---------------------------------------------------------------
 */
 #define PLOT_MODE 0
+#define DIAGNOSTIC_STREAMS 0 // Set 1 to also stream RAW:<val> and MWI:<val> at 250Hz
 
 #include <Arduino.h>
 #include <WiFi.h>
@@ -492,8 +493,15 @@ void processSample(int raw) {
   Serial.print(",");
   Serial.println(signalThreshold, 1);
 #else
-  // Stream filtered ECG sample for webSerialService / ECG chart
+  // Explicitly tagged ECG waveform sample at 250Hz
+  Serial.print("ECG:");
   Serial.println(lp_out, 2);
+#if DIAGNOSTIC_STREAMS
+  Serial.print("RAW:");
+  Serial.println(raw);
+  Serial.print("MWI:");
+  Serial.println(mwi, 2);
+#endif
 #endif
 
   detectPeak(mwi, candidateSlope, now);

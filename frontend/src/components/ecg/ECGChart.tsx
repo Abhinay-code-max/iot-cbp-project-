@@ -135,10 +135,10 @@ export const ECGChart: React.FC<Props> = ({
         ctx.lineTo(34, midY);
         ctx.stroke();
 
-        // Calibration text
+        // Calibration text (honest normalized amplitude indicator)
         ctx.fillStyle = isDark ? '#64748b' : '#94a3b8';
         ctx.font = '10px Inter, monospace';
-        ctx.fillText('1mV', 16, midY - pulseHeight - 4);
+        ctx.fillText('Norm 1.0', 10, midY - pulseHeight - 4);
       } else {
         // Sleek Minimal Fitness Grid
         ctx.strokeStyle = isDark ? 'rgba(30, 41, 59, 0.35)' : 'rgba(226, 232, 240, 0.8)';

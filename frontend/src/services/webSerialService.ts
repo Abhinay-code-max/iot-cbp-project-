@@ -8,6 +8,8 @@ export interface SerialTelemetry {
   rhythm?: RhythmType;
   statusText?: string;
   leadsOff?: boolean;
+  rawAdc?: number;
+  mwi?: number;
 }
 
 /**
@@ -105,10 +107,10 @@ export class WebSerialService {
                   statusText: 'Leads Off'
                 });
               }
-              continue;
+              continue; // STRICT STOP: Do not process as waveform!
             }
 
-            // 2. Check JSON payload
+            // 2. Check JSON payload (e.g. from IoT bridges)
             if (trimmed.startsWith('{') && trimmed.endsWith('}')) {
               try {
                 const parsed = JSON.parse(trimmed);
@@ -130,17 +132,17 @@ export class WebSerialService {
                 if (voltage !== null && this.onDataCallback) {
                   this.onDataCallback({
                     timestamp: Date.now(),
-                    voltage: Number(voltage.toFixed(3)),
+                    voltage: Number(Number(voltage).toFixed(3)),
                     lead: 'Lead II (ESP32 Serial)'
                   });
                 }
-                continue;
+                continue; // STRICT STOP: Finished processing JSON
               } catch {
                 // fall through to text parsing
               }
             }
 
-            // 3. Check "R-peak detected | RR: 820 ms | HR: 73.2 bpm"
+            // 3. Telemetry: Check "R-peak detected | RR: 820 ms | HR: 73.2 bpm"
             const hrMatch = trimmed.match(/HR:\s*([\d.]+)\s*bpm/i);
             const rrMatch = trimmed.match(/RR:\s*(\d+)\s*ms/i);
             if (hrMatch) {
@@ -153,9 +155,10 @@ export class WebSerialService {
                   leadsOff: false
                 });
               }
+              continue; // STRICT STOP: Never fall through into waveform parser!
             }
 
-            // 4. Check "Median HR: 72.0 bpm | SDNN: ... | Status: Normal"
+            // 4. Telemetry: Check "Median HR: 72.0 bpm | SDNN: ... | Status: Normal"
             const medianMatch = trimmed.match(/Median HR:\s*([\d.]+)\s*bpm/i);
             const statusMatch = trimmed.match(/Status:\s*(.+)$/i);
             if (medianMatch || statusMatch) {
@@ -171,34 +174,70 @@ export class WebSerialService {
                   leadsOff: false
                 });
               }
+              continue; // STRICT STOP: Never fall through into waveform parser!
             }
 
-            // 5. Check CSV waveform data (PLOT_MODE 1: ecg,mwi,threshold) or raw ADC float/int
-            let voltage: number | null = null;
-            if (trimmed.includes(',')) {
+            // Skip diagnostic / boot / connection log text lines
+            if (
+              trimmed.includes('Calibration') ||
+              trimmed.includes('WiFi') ||
+              trimmed.includes('Dropped') ||
+              trimmed.includes('Starting') ||
+              trimmed.includes('rst:') ||
+              trimmed.includes('boot:') ||
+              trimmed.includes('load:')
+            ) {
+              continue; // STRICT STOP
+            }
+
+            // 5. Diagnostic RAW stream: "RAW:<integer>"
+            if (trimmed.startsWith('RAW:')) {
+              const rawVal = parseInt(trimmed.substring(4).trim(), 10);
+              if (!isNaN(rawVal) && this.onTelemetryCallback) {
+                this.onTelemetryCallback({ rawAdc: rawVal });
+              }
+              continue; // STRICT STOP: RAW does not enter ECG waveform buffer
+            }
+
+            // 6. Diagnostic MWI stream: "MWI:<float>"
+            if (trimmed.startsWith('MWI:')) {
+              const mwiVal = parseFloat(trimmed.substring(4).trim());
+              if (!isNaN(mwiVal) && this.onTelemetryCallback) {
+                this.onTelemetryCallback({ mwi: mwiVal });
+              }
+              continue; // STRICT STOP: MWI does not enter ECG waveform buffer
+            }
+
+            // 7. Filtered ECG stream: "ECG:<float>" (or legacy pure numeric float/CSV)
+            let ecgSample: number | null = null;
+
+            if (trimmed.startsWith('ECG:')) {
+              const val = parseFloat(trimmed.substring(4).trim());
+              if (!isNaN(val)) {
+                // Honest amplitude normalization: filtered signal is zero-centered baseline count
+                // Divided by 150.0 to scale standard ~150-count QRS excursions to ~1.0 unit
+                // (Preserves clean P-QRS-T morphology without claiming uncalibrated patient mV)
+                ecgSample = val / 150.0;
+              }
+            } else if (trimmed.includes(',')) {
+              // Legacy CSV mode (e.g. PLOT_MODE 1: ecg,mwi,threshold)
               const parts = trimmed.split(',');
               const firstNum = parseFloat(parts[0]);
               if (!isNaN(firstNum)) {
-                voltage = firstNum > 10 ? (firstNum - 2048) / 1000 : firstNum;
+                ecgSample = firstNum / 150.0;
               }
-            } else if (!hrMatch && !medianMatch && !statusMatch && !trimmed.includes('Calibration') && !trimmed.includes('WiFi') && !trimmed.includes('Dropped')) {
-              // Only parse if it's purely a number (optionally with 'ecg:' prefix)
-              let clean = trimmed;
-              if (clean.toLowerCase().startsWith('ecg:')) {
-                clean = clean.substring(4).trim();
-              }
-              if (/^-?\d+(\.\d+)?$/.test(clean)) {
-                const num = parseFloat(clean);
-                if (!isNaN(num)) {
-                  voltage = Math.abs(num) > 10 ? (num - 2048) / 1000 : num;
-                }
+            } else if (/^-?\d+(\.\d+)?$/.test(trimmed)) {
+              // Legacy untagged numeric float
+              const num = parseFloat(trimmed);
+              if (!isNaN(num)) {
+                ecgSample = num / 150.0;
               }
             }
 
-            if (voltage !== null && this.onDataCallback) {
+            if (ecgSample !== null && this.onDataCallback) {
               this.onDataCallback({
                 timestamp: Date.now(),
-                voltage: Number(voltage.toFixed(3)),
+                voltage: Number(ecgSample.toFixed(3)),
                 lead: 'Lead II (ESP32 Serial)'
               });
             }
