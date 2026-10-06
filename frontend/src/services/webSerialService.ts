@@ -181,10 +181,17 @@ export class WebSerialService {
               if (!isNaN(firstNum)) {
                 voltage = firstNum > 10 ? (firstNum - 2048) / 1000 : firstNum;
               }
-            } else if (!hrMatch && !medianMatch && !statusMatch) {
-              const num = parseFloat(trimmed.replace(/[^\d.-]/g, ''));
-              if (!isNaN(num)) {
-                voltage = num > 10 ? (num - 2048) / 1000 : num;
+            } else if (!hrMatch && !medianMatch && !statusMatch && !trimmed.includes('Calibration') && !trimmed.includes('WiFi') && !trimmed.includes('Dropped')) {
+              // Only parse if it's purely a number (optionally with 'ecg:' prefix)
+              let clean = trimmed;
+              if (clean.toLowerCase().startsWith('ecg:')) {
+                clean = clean.substring(4).trim();
+              }
+              if (/^-?\d+(\.\d+)?$/.test(clean)) {
+                const num = parseFloat(clean);
+                if (!isNaN(num)) {
+                  voltage = Math.abs(num) > 10 ? (num - 2048) / 1000 : num;
+                }
               }
             }
 

@@ -407,9 +407,14 @@ void loop() {
 
   // Leads-off detection
   if (digitalRead(LO_PLUS) == 1 || digitalRead(LO_MINUS) == 1) {
+    static unsigned long lastLeadsOffPrint = 0;
+    unsigned long nowLeadsOff = millis();
+    if (nowLeadsOff - lastLeadsOffPrint >= 1000) {
+      lastLeadsOffPrint = nowLeadsOff;
 #if !PLOT_MODE
-    Serial.println("Leads off! Check electrode contact.");
+      Serial.println("Leads off! Check electrode contact.");
 #endif
+    }
     digitalWrite(ALERT_LED, LOW);
     portENTER_CRITICAL(&dataMux);
     leadsOffNow = true;
