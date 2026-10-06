@@ -1,0 +1,39 @@
+elapsed_ms,raw_line
+2,"0, SPIWP:0xee"
+4,"clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00"
+7,"mode:DIO, clock div:1"
+9,"load:0x3fff0030,len:4876"
+10,ho 0 tail 12 room 4
+12,"load:0x40078000,len:16532"
+15,"load:0x40080400,len:3500"
+19,entry 0x400805b4
+418,WiFi AP started. SSID: ECG-Monitor  IP: 192.168.4.1
+422,ESP32 Arrhythmia Detector Starting...
+3423,Calibration done. Monitoring started.
+5280,R-peak detected | RR: 968 ms | HR: 62.0 bpm
+6176,R-peak detected | RR: 912 ms | HR: 65.8 bpm
+7093,R-peak detected | RR: 904 ms | HR: 66.4 bpm
+9707,R-peak detected | RR: 864 ms | HR: 69.4 bpm
+9714,  -> Median HR: 65.8 bpm | SDNN: 37.1 ms | Status: Normal
+10525,R-peak detected | RR: 808 ms | HR: 74.3 bpm
+10530,  -> Median HR: 66.4 bpm | SDNN: 53.2 ms | Status: Normal
+11353,R-peak detected | RR: 844 ms | HR: 71.1 bpm
+11358,  -> Median HR: 66.4 bpm | SDNN: 51.7 ms | Status: Normal
+12229,R-peak detected | RR: 876 ms | HR: 68.5 bpm
+12234,  -> Median HR: 68.5 bpm | SDNN: 47.9 ms | Status: Normal
+13113,R-peak detected | RR: 884 ms | HR: 67.9 bpm
+13118,  -> Median HR: 67.9 bpm | SDNN: 44.8 ms | Status: Normal
+14077,R-peak detected | RR: 972 ms | HR: 61.7 bpm
+14081,  -> Median HR: 67.9 bpm | SDNN: 45.8 ms | Status: Normal
+17021,R-peak detected | RR: 992 ms | HR: 60.5 bpm
+17025,  -> Median HR: 67.9 bpm | SDNN: 58.1 ms | Status: Normal
+17950,R-peak detected | RR: 920 ms | HR: 65.2 bpm
+17956,  -> Median HR: 67.9 bpm | SDNN: 58.7 ms | Status: Normal
+18889,R-peak detected | RR: 944 ms | HR: 63.6 bpm
+18894,  -> Median HR: 65.2 bpm | SDNN: 59.4 ms | Status: Normal
+19785,R-peak detected | RR: 896 ms | HR: 67.0 bpm
+19789,  -> Median HR: 65.2 bpm | SDNN: 47.3 ms | Status: Normal
+20673,R-peak detected | RR: 884 ms | HR: 67.9 bpm
+20677,  -> Median HR: 65.2 bpm | SDNN: 41.2 ms | Status: Normal
+21589,R-peak detected | RR: 920 ms | HR: 65.2 bpm
+21594,  -> Median HR: 65.2 bpm | SDNN: 37.6 ms | Status: Normal

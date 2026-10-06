@@ -1,0 +1,386 @@
+elapsed_ms,raw_line
+1, SPIWP:0xee
+3,"clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00"
+5,"mode:DIO, clock div:1"
+7,"load:0x3fff0030,len:4876"
+8,ho 0 tail 12 room 4
+10,"load:0x40078000,len:16532"
+13,"load:0x40080400,len:3500"
+14,entry 0x400805b4
+126,ESP32 Arrhythmia Detector Starting...
+3123,Calibration done. Monitoring started.
+4834,R-peak detected | RR: 844 ms | HR: 71.1 bpm
+5747,R-peak detected | RR: 912 ms | HR: 65.8 bpm
+6727,R-peak detected | RR: 972 ms | HR: 61.7 bpm
+7671,R-peak detected | RR: 952 ms | HR: 63.0 bpm
+7678,  -> Median HR: 63.0 bpm | SDNN: 48.9 ms | Status: Normal
+8691,R-peak detected | RR: 1016 ms | HR: 59.1 bpm
+8694,  -> Median HR: 63.0 bpm | SDNN: 58.2 ms | Status: Normal
+9703,R-peak detected | RR: 1008 ms | HR: 59.5 bpm
+9708,  -> Median HR: 61.7 bpm | SDNN: 59.0 ms | Status: Normal
+10655,R-peak detected | RR: 960 ms | HR: 62.5 bpm
+10660,  -> Median HR: 62.5 bpm | SDNN: 54.7 ms | Status: Normal
+11639,R-peak detected | RR: 980 ms | HR: 61.2 bpm
+11644,  -> Median HR: 61.7 bpm | SDNN: 52.0 ms | Status: Normal
+12615,R-peak detected | RR: 976 ms | HR: 61.5 bpm
+12619,  -> Median HR: 61.5 bpm | SDNN: 30.5 ms | Status: Normal
+13515,R-peak detected | RR: 892 ms | HR: 67.3 bpm
+13520,  -> Median HR: 61.5 bpm | SDNN: 35.7 ms | Status: Normal
+14459,R-peak detected | RR: 948 ms | HR: 63.3 bpm
+14466,  -> Median HR: 61.5 bpm | SDNN: 36.4 ms | Status: Normal
+15379,R-peak detected | RR: 924 ms | HR: 64.9 bpm
+15385,  -> Median HR: 61.5 bpm | SDNN: 38.9 ms | Status: Normal
+16283,R-peak detected | RR: 908 ms | HR: 66.1 bpm
+16288,  -> Median HR: 62.5 bpm | SDNN: 36.8 ms | Status: Normal
+17195,R-peak detected | RR: 912 ms | HR: 65.8 bpm
+17200,  -> Median HR: 63.3 bpm | SDNN: 31.0 ms | Status: Normal
+18055,R-peak detected | RR: 848 ms | HR: 70.8 bpm
+18062,  -> Median HR: 64.9 bpm | SDNN: 41.3 ms | Status: Normal
+18943,R-peak detected | RR: 900 ms | HR: 66.7 bpm
+18947,  -> Median HR: 65.8 bpm | SDNN: 35.7 ms | Status: Normal
+19871,R-peak detected | RR: 924 ms | HR: 64.9 bpm
+19878,  -> Median HR: 65.8 bpm | SDNN: 27.5 ms | Status: Normal
+20763,R-peak detected | RR: 892 ms | HR: 67.3 bpm
+20768,  -> Median HR: 65.8 bpm | SDNN: 27.5 ms | Status: Normal
+21715,R-peak detected | RR: 956 ms | HR: 62.8 bpm
+21722,  -> Median HR: 65.8 bpm | SDNN: 29.1 ms | Status: Normal
+22707,R-peak detected | RR: 984 ms | HR: 61.0 bpm
+22710,  -> Median HR: 65.8 bpm | SDNN: 38.4 ms | Status: Normal
+23623,R-peak detected | RR: 912 ms | HR: 65.8 bpm
+23628,  -> Median HR: 65.8 bpm | SDNN: 38.4 ms | Status: Normal
+24579,R-peak detected | RR: 964 ms | HR: 62.2 bpm
+24586,  -> Median HR: 64.9 bpm | SDNN: 41.4 ms | Status: Normal
+25535,R-peak detected | RR: 952 ms | HR: 63.0 bpm
+25540,  -> Median HR: 63.0 bpm | SDNN: 31.0 ms | Status: Normal
+26415,R-peak detected | RR: 880 ms | HR: 68.2 bpm
+26420,  -> Median HR: 63.0 bpm | SDNN: 34.4 ms | Status: Normal
+27311,R-peak detected | RR: 900 ms | HR: 66.7 bpm
+27316,  -> Median HR: 63.0 bpm | SDNN: 36.1 ms | Status: Normal
+28187,R-peak detected | RR: 876 ms | HR: 68.5 bpm
+28191,  -> Median HR: 63.0 bpm | SDNN: 38.5 ms | Status: Normal
+29011,R-peak detected | RR: 820 ms | HR: 73.2 bpm
+29015,  -> Median HR: 65.8 bpm | SDNN: 50.5 ms | Status: Normal
+29875,R-peak detected | RR: 872 ms | HR: 68.8 bpm
+29880,  -> Median HR: 66.7 bpm | SDNN: 43.3 ms | Status: Normal
+30751,R-peak detected | RR: 872 ms | HR: 68.8 bpm
+30755,  -> Median HR: 68.2 bpm | SDNN: 43.6 ms | Status: Normal
+31599,R-peak detected | RR: 848 ms | HR: 70.8 bpm
+31606,  -> Median HR: 68.5 bpm | SDNN: 35.9 ms | Status: Normal
+32507,R-peak detected | RR: 908 ms | HR: 66.1 bpm
+32512,  -> Median HR: 68.5 bpm | SDNN: 26.1 ms | Status: Normal
+33437,R-peak detected | RR: 924 ms | HR: 64.9 bpm
+33439,  -> Median HR: 68.5 bpm | SDNN: 31.3 ms | Status: Normal
+34315,R-peak detected | RR: 880 ms | HR: 68.2 bpm
+34320,  -> Median HR: 68.5 bpm | SDNN: 30.2 ms | Status: Normal
+35251,R-peak detected | RR: 940 ms | HR: 63.8 bpm
+35256,  -> Median HR: 68.2 bpm | SDNN: 37.1 ms | Status: Normal
+36163,R-peak detected | RR: 908 ms | HR: 66.1 bpm
+36168,  -> Median HR: 66.1 bpm | SDNN: 28.9 ms | Status: Normal
+37035,R-peak detected | RR: 872 ms | HR: 68.8 bpm
+37039,  -> Median HR: 66.1 bpm | SDNN: 28.9 ms | Status: Normal
+37947,R-peak detected | RR: 920 ms | HR: 65.2 bpm
+37951,  -> Median HR: 66.1 bpm | SDNN: 28.7 ms | Status: Normal
+38827,R-peak detected | RR: 872 ms | HR: 68.8 bpm
+38831,  -> Median HR: 66.1 bpm | SDNN: 24.0 ms | Status: Normal
+39699,R-peak detected | RR: 872 ms | HR: 68.8 bpm
+39704,  -> Median HR: 66.1 bpm | SDNN: 25.9 ms | Status: Normal
+40652,R-peak detected | RR: 956 ms | HR: 62.8 bpm
+40653,  -> Median HR: 66.1 bpm | SDNN: 31.4 ms | Status: Normal
+41623,R-peak detected | RR: 972 ms | HR: 61.7 bpm
+41628,  -> Median HR: 65.2 bpm | SDNN: 37.4 ms | Status: Normal
+42583,R-peak detected | RR: 956 ms | HR: 62.8 bpm
+42588,  -> Median HR: 65.2 bpm | SDNN: 39.1 ms | Status: Normal
+43575,R-peak detected | RR: 996 ms | HR: 60.2 bpm
+43579,  -> Median HR: 62.8 bpm | SDNN: 46.9 ms | Status: Normal
+44499,R-peak detected | RR: 912 ms | HR: 65.8 bpm
+44503,  -> Median HR: 62.8 bpm | SDNN: 42.7 ms | Status: Normal
+45451,R-peak detected | RR: 964 ms | HR: 62.2 bpm
+45458,  -> Median HR: 62.8 bpm | SDNN: 43.6 ms | Status: Normal
+46443,R-peak detected | RR: 992 ms | HR: 60.5 bpm
+46448,  -> Median HR: 62.2 bpm | SDNN: 38.9 ms | Status: Normal
+47351,R-peak detected | RR: 912 ms | HR: 65.8 bpm
+47355,  -> Median HR: 62.2 bpm | SDNN: 29.7 ms | Status: Normal
+48303,R-peak detected | RR: 948 ms | HR: 63.3 bpm
+48307,  -> Median HR: 62.2 bpm | SDNN: 29.9 ms | Status: Normal
+49219,R-peak detected | RR: 908 ms | HR: 66.1 bpm
+49224,  -> Median HR: 62.8 bpm | SDNN: 33.1 ms | Status: Normal
+50091,R-peak detected | RR: 880 ms | HR: 68.2 bpm
+50095,  -> Median HR: 63.3 bpm | SDNN: 39.8 ms | Status: Normal
+51003,R-peak detected | RR: 912 ms | HR: 65.8 bpm
+51007,  -> Median HR: 65.8 bpm | SDNN: 34.0 ms | Status: Normal
+51887,R-peak detected | RR: 884 ms | HR: 67.9 bpm
+51891,  -> Median HR: 65.8 bpm | SDNN: 36.9 ms | Status: Normal
+52747,R-peak detected | RR: 848 ms | HR: 70.8 bpm
+52754,  -> Median HR: 65.8 bpm | SDNN: 41.2 ms | Status: Normal
+53655,R-peak detected | RR: 920 ms | HR: 65.2 bpm
+53662,  -> Median HR: 65.8 bpm | SDNN: 28.3 ms | Status: Normal
+54535,R-peak detected | RR: 876 ms | HR: 68.5 bpm
+54540,  -> Median HR: 66.1 bpm | SDNN: 29.1 ms | Status: Normal
+55335,R-peak detected | RR: 800 ms | HR: 75.0 bpm
+55338,  -> Median HR: 67.9 bpm | SDNN: 36.8 ms | Status: Normal
+56147,R-peak detected | RR: 816 ms | HR: 73.5 bpm
+56150,  -> Median HR: 68.2 bpm | SDNN: 40.0 ms | Status: Normal
+56991,R-peak detected | RR: 836 ms | HR: 71.8 bpm
+56998,  -> Median HR: 68.5 bpm | SDNN: 40.9 ms | Status: Normal
+57771,R-peak detected | RR: 776 ms | HR: 77.3 bpm
+57777,  -> Median HR: 70.8 bpm | SDNN: 44.5 ms | Status: Normal
+58663,R-peak detected | RR: 904 ms | HR: 66.4 bpm
+58667,  -> Median HR: 70.8 bpm | SDNN: 47.1 ms | Status: Normal
+59619,R-peak detected | RR: 952 ms | HR: 63.0 bpm
+59626,  -> Median HR: 68.5 bpm | SDNN: 58.5 ms | Status: Normal
+60547,R-peak detected | RR: 932 ms | HR: 64.4 bpm
+60554,  -> Median HR: 68.5 bpm | SDNN: 60.2 ms | Status: Normal
+61531,R-peak detected | RR: 984 ms | HR: 61.0 bpm
+61536,  -> Median HR: 66.4 bpm | SDNN: 72.7 ms | Status: Normal
+62479,R-peak detected | RR: 948 ms | HR: 63.3 bpm
+62487,  -> Median HR: 64.4 bpm | SDNN: 70.1 ms | Status: Normal
+63427,R-peak detected | RR: 948 ms | HR: 63.3 bpm
+63432,  -> Median HR: 63.3 bpm | SDNN: 65.3 ms | Status: Normal
+64435,R-peak detected | RR: 1004 ms | HR: 59.8 bpm
+64441,  -> Median HR: 63.3 bpm | SDNN: 65.1 ms | Status: Normal
+65247,R-peak detected | RR: 808 ms | HR: 74.3 bpm
+65251,  -> Median HR: 63.3 bpm | SDNN: 55.8 ms | Status: Normal
+65899,R-peak detected | RR: 660 ms | HR: 90.9 bpm
+65905,  -> Median HR: 63.3 bpm | SDNN: 107.3 ms | Status: Normal
+66403,R-peak detected | RR: 492 ms | HR: 122.0 bpm
+66413,"  -> Median HR: 63.3 bpm | SDNN: 170.9 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+67487,R-peak detected | RR: 1092 ms | HR: 54.9 bpm
+67497,"  -> Median HR: 63.3 bpm | SDNN: 188.1 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+68563,R-peak detected | RR: 708 ms | HR: 84.7 bpm
+68573,"  -> Median HR: 63.3 bpm | SDNN: 188.8 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+69239,R-peak detected | RR: 688 ms | HR: 87.2 bpm
+69248,"  -> Median HR: 74.3 bpm | SDNN: 188.5 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+69747,R-peak detected | RR: 404 ms | HR: 148.5 bpm
+69757,"  -> Median HR: 84.7 bpm | SDNN: 218.6 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+70511,R-peak detected | RR: 568 ms | HR: 105.6 bpm
+70524,"  -> Median HR: 87.2 bpm | SDNN: 197.3 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+71164,Leads off! Check electrode contact.
+71184,Leads off! Check electrode contact.
+71202,Leads off! Check electrode contact.
+71221,Leads off! Check electrode contact.
+71242,Leads off! Check electrode contact.
+71263,Leads off! Check electrode contact.
+71281,Leads off! Check electrode contact.
+71304,Leads off! Check electrode contact.
+71323,Leads off! Check electrode contact.
+71341,Leads off! Check electrode contact.
+71362,Leads off! Check electrode contact.
+71382,Leads off! Check electrode contact.
+71425,Leads off! Check electrode contact.
+71442,Leads off! Check electrode contact.
+71461,Leads off! Check electrode contact.
+71482,Leads off! Check electrode contact.
+71502,Leads off! Check electrode contact.
+71521,Leads off! Check electrode contact.
+71544,Leads off! Check electrode contact.
+71563,Leads off! Check electrode contact.
+71581,Leads off! Check electrode contact.
+71602,Leads off! Check electrode contact.
+71622,Leads off! Check electrode contact.
+71641,Leads off! Check electrode contact.
+71665,Leads off! Check electrode contact.
+71683,Leads off! Check electrode contact.
+71702,Leads off! Check electrode contact.
+71722,Leads off! Check electrode contact.
+71742,Leads off! Check electrode contact.
+71761,Leads off! Check electrode contact.
+71784,Leads off! Check electrode contact.
+71803,Leads off! Check electrode contact.
+71821,Leads off! Check electrode contact.
+71842,Leads off! Check electrode contact.
+71863,Leads off! Check electrode contact.
+71881,Leads off! Check electrode contact.
+71904,Leads off! Check electrode contact.
+71923,Leads off! Check electrode contact.
+71942,Leads off! Check electrode contact.
+71962,Leads off! Check electrode contact.
+71982,Leads off! Check electrode contact.
+72002,Leads off! Check electrode contact.
+72024,Leads off! Check electrode contact.
+72042,Leads off! Check electrode contact.
+72061,Leads off! Check electrode contact.
+72082,Leads off! Check electrode contact.
+72102,Leads off! Check electrode contact.
+72121,Leads off! Check electrode contact.
+72142,Leads off! Check electrode contact.
+72165,Leads off! Check electrode contact.
+72182,Leads off! Check electrode contact.
+72201,Leads off! Check electrode contact.
+72218,Leads off! Check electrode contact.
+72232,Leads off! Check electrode contact.
+72234,Leads off! Check electrode contact.
+72250,Leads off! Check electrode contact.
+72255,Leads off! Check electrode contact.
+72272,Leads off! Check electrode contact.
+72274,Leads off! Check electrode contact.
+72292,Leads off! Check electrode contact.
+72294,Leads off! Check electrode contact.
+73623,R-peak detected | RR: 788 ms | HR: 76.1 bpm
+73635,"  -> Median HR: 87.2 bpm | SDNN: 195.7 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+74431,R-peak detected | RR: 812 ms | HR: 73.9 bpm
+74442,"  -> Median HR: 84.7 bpm | SDNN: 200.7 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+75228,R-peak detected | RR: 796 ms | HR: 75.4 bpm
+75237,"  -> Median HR: 76.1 bpm | SDNN: 187.2 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+75979,R-peak detected | RR: 764 ms | HR: 78.5 bpm
+75985,  -> Median HR: 78.5 bpm | SDNN: 131.4 ms | Status: Normal
+77408,R-peak detected | RR: 1416 ms | HR: 42.4 bpm
+77417,  -> Median HR: 76.1 bpm | SDNN: 274.1 ms | Status: Possible pause / dropped beat
+78076,R-peak detected | RR: 668 ms | HR: 89.8 bpm
+78088,"  -> Median HR: 76.1 bpm | SDNN: 275.0 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+78723,R-peak detected | RR: 648 ms | HR: 92.6 bpm
+78735,"  -> Median HR: 76.1 bpm | SDNN: 243.7 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+79992,R-peak detected | RR: 1264 ms | HR: 47.5 bpm
+80001,"  -> Median HR: 75.4 bpm | SDNN: 265.9 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+81217,R-peak detected | RR: 1220 ms | HR: 49.2 bpm
+81223,"  -> Median HR: 73.9 bpm | SDNN: 282.1 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+82544,R-peak detected | RR: 1332 ms | HR: 45.0 bpm
+82553,  -> Median HR: 49.2 bpm | SDNN: 302.4 ms | Status: Bradycardia (HR < 60 bpm)
+83323,R-peak detected | RR: 784 ms | HR: 76.5 bpm
+83330,  -> Median HR: 49.2 bpm | SDNN: 303.5 ms | Status: Bradycardia (HR < 60 bpm)
+84119,R-peak detected | RR: 792 ms | HR: 75.8 bpm
+84126,  -> Median HR: 49.2 bpm | SDNN: 300.7 ms | Status: Bradycardia (HR < 60 bpm)
+84988,R-peak detected | RR: 868 ms | HR: 69.1 bpm
+84999,"  -> Median HR: 69.1 bpm | SDNN: 261.6 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+85867,R-peak detected | RR: 880 ms | HR: 68.2 bpm
+85877,"  -> Median HR: 68.2 bpm | SDNN: 242.0 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+86683,R-peak detected | RR: 816 ms | HR: 73.5 bpm
+86693,"  -> Median HR: 68.2 bpm | SDNN: 219.0 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+87520,R-peak detected | RR: 836 ms | HR: 71.8 bpm
+87531,"  -> Median HR: 69.1 bpm | SDNN: 197.9 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+88363,R-peak detected | RR: 844 ms | HR: 71.1 bpm
+88373,"  -> Median HR: 71.1 bpm | SDNN: 168.5 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+89135,R-peak detected | RR: 772 ms | HR: 77.7 bpm
+89143,  -> Median HR: 71.8 bpm | SDNN: 37.1 ms | Status: Normal
+89935,R-peak detected | RR: 796 ms | HR: 75.4 bpm
+89940,  -> Median HR: 71.8 bpm | SDNN: 35.7 ms | Status: Normal
+90727,R-peak detected | RR: 800 ms | HR: 75.0 bpm
+90733,  -> Median HR: 71.8 bpm | SDNN: 34.8 ms | Status: Normal
+91451,R-peak detected | RR: 720 ms | HR: 83.3 bpm
+91456,  -> Median HR: 73.5 bpm | SDNN: 45.5 ms | Status: Normal
+92127,R-peak detected | RR: 672 ms | HR: 89.3 bpm
+92132,  -> Median HR: 75.0 bpm | SDNN: 55.3 ms | Status: Normal
+92815,R-peak detected | RR: 692 ms | HR: 86.7 bpm
+92820,  -> Median HR: 75.4 bpm | SDNN: 60.7 ms | Status: Normal
+93516,R-peak detected | RR: 700 ms | HR: 85.7 bpm
+93521,  -> Median HR: 77.7 bpm | SDNN: 57.9 ms | Status: Normal
+94236,R-peak detected | RR: 716 ms | HR: 83.8 bpm
+94241,  -> Median HR: 83.3 bpm | SDNN: 46.0 ms | Status: Normal
+94987,R-peak detected | RR: 756 ms | HR: 79.4 bpm
+94993,  -> Median HR: 83.3 bpm | SDNN: 44.6 ms | Status: Normal
+95752,R-peak detected | RR: 756 ms | HR: 79.4 bpm
+95759,  -> Median HR: 83.3 bpm | SDNN: 39.0 ms | Status: Normal
+97204,R-peak detected | RR: 1460 ms | HR: 41.1 bpm
+97210,  -> Median HR: 83.3 bpm | SDNN: 247.6 ms | Status: Possible pause / dropped beat
+97947,R-peak detected | RR: 744 ms | HR: 80.6 bpm
+97957,"  -> Median HR: 80.6 bpm | SDNN: 246.6 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+98648,R-peak detected | RR: 700 ms | HR: 85.7 bpm
+98657,"  -> Median HR: 80.6 bpm | SDNN: 244.8 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+99371,R-peak detected | RR: 724 ms | HR: 82.9 bpm
+99381,"  -> Median HR: 80.6 bpm | SDNN: 243.0 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+100096,R-peak detected | RR: 724 ms | HR: 82.9 bpm
+100105,"  -> Median HR: 80.6 bpm | SDNN: 241.7 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+100791,R-peak detected | RR: 696 ms | HR: 86.2 bpm
+100801,"  -> Median HR: 80.6 bpm | SDNN: 242.8 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+101468,R-peak detected | RR: 672 ms | HR: 89.3 bpm
+101479,"  -> Median HR: 82.9 bpm | SDNN: 247.2 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+102160,R-peak detected | RR: 692 ms | HR: 86.7 bpm
+102170,"  -> Median HR: 82.9 bpm | SDNN: 249.8 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+102836,R-peak detected | RR: 676 ms | HR: 88.8 bpm
+102841,  -> Median HR: 85.7 bpm | SDNN: 23.5 ms | Status: Normal
+104192,R-peak detected | RR: 1360 ms | HR: 44.1 bpm
+104198,  -> Median HR: 85.7 bpm | SDNN: 219.8 ms | Status: Possible pause / dropped beat
+104912,R-peak detected | RR: 720 ms | HR: 83.3 bpm
+104921,"  -> Median HR: 83.3 bpm | SDNN: 218.9 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+105627,R-peak detected | RR: 704 ms | HR: 85.2 bpm
+105637,"  -> Median HR: 85.2 bpm | SDNN: 219.7 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+106364,R-peak detected | RR: 748 ms | HR: 80.2 bpm
+106373,"  -> Median HR: 85.2 bpm | SDNN: 219.1 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+107128,R-peak detected | RR: 764 ms | HR: 78.5 bpm
+107139,"  -> Median HR: 83.3 bpm | SDNN: 216.8 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+107892,R-peak detected | RR: 764 ms | HR: 78.5 bpm
+107901,"  -> Median HR: 80.2 bpm | SDNN: 212.6 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+108680,R-peak detected | RR: 788 ms | HR: 76.1 bpm
+108689,"  -> Median HR: 78.5 bpm | SDNN: 208.6 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+109448,R-peak detected | RR: 776 ms | HR: 77.3 bpm
+109455,"  -> Median HR: 78.5 bpm | SDNN: 202.8 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+112400,R-peak detected | RR: 400 ms | HR: 150.0 bpm
+112404,  -> Median HR: 78.5 bpm | SDNN: 119.3 ms | Status: Normal
+113204,R-peak detected | RR: 804 ms | HR: 74.6 bpm
+113208,  -> Median HR: 78.5 bpm | SDNN: 123.5 ms | Status: Normal
+114045,R-peak detected | RR: 836 ms | HR: 71.8 bpm
+114051,  -> Median HR: 77.3 bpm | SDNN: 129.2 ms | Status: Normal
+114892,R-peak detected | RR: 848 ms | HR: 70.8 bpm
+114899,  -> Median HR: 76.1 bpm | SDNN: 134.6 ms | Status: Normal
+115761,R-peak detected | RR: 864 ms | HR: 69.4 bpm
+115768,  -> Median HR: 74.6 bpm | SDNN: 140.1 ms | Status: Normal
+118232,R-peak detected | RR: 832 ms | HR: 72.1 bpm
+118237,  -> Median HR: 72.1 bpm | SDNN: 142.1 ms | Status: Normal
+121484,R-peak detected | RR: 768 ms | HR: 78.1 bpm
+121488,  -> Median HR: 72.1 bpm | SDNN: 141.9 ms | Status: Normal
+122244,R-peak detected | RR: 756 ms | HR: 79.4 bpm
+122251,  -> Median HR: 72.1 bpm | SDNN: 141.9 ms | Status: Normal
+122996,R-peak detected | RR: 756 ms | HR: 79.4 bpm
+123003,  -> Median HR: 72.1 bpm | SDNN: 40.5 ms | Status: Normal
+123732,R-peak detected | RR: 740 ms | HR: 81.1 bpm
+123736,  -> Median HR: 72.1 bpm | SDNN: 46.4 ms | Status: Normal
+128128,R-peak detected | RR: 736 ms | HR: 81.5 bpm
+128133,  -> Median HR: 78.1 bpm | SDNN: 48.4 ms | Status: Normal
+130888,R-peak detected | RR: 668 ms | HR: 89.8 bpm
+130892,  -> Median HR: 79.4 bpm | SDNN: 56.3 ms | Status: Normal
+133956,R-peak detected | RR: 1316 ms | HR: 45.6 bpm
+133962,  -> Median HR: 79.4 bpm | SDNN: 191.6 ms | Status: Possible pause / dropped beat
+135244,R-peak detected | RR: 1284 ms | HR: 46.7 bpm
+135250,  -> Median HR: 79.4 bpm | SDNN: 245.4 ms | Status: Possible pause / dropped beat
+135944,R-peak detected | RR: 704 ms | HR: 85.2 bpm
+135953,"  -> Median HR: 79.4 bpm | SDNN: 249.9 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+136661,R-peak detected | RR: 716 ms | HR: 83.8 bpm
+136669,"  -> Median HR: 81.1 bpm | SDNN: 252.5 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+137340,R-peak detected | RR: 676 ms | HR: 88.8 bpm
+137349,"  -> Median HR: 81.5 bpm | SDNN: 258.1 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+138016,R-peak detected | RR: 676 ms | HR: 88.8 bpm
+138028,"  -> Median HR: 83.8 bpm | SDNN: 262.5 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+138724,R-peak detected | RR: 712 ms | HR: 84.3 bpm
+138733,"  -> Median HR: 84.3 bpm | SDNN: 263.9 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+139464,R-peak detected | RR: 740 ms | HR: 81.1 bpm
+139475,"  -> Median HR: 83.8 bpm | SDNN: 258.9 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+142849,R-peak detected | RR: 860 ms | HR: 69.8 bpm
+142857,"  -> Median HR: 83.8 bpm | SDNN: 192.4 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+143660,R-peak detected | RR: 812 ms | HR: 73.9 bpm
+143665,  -> Median HR: 83.8 bpm | SDNN: 61.6 ms | Status: Normal
+144504,R-peak detected | RR: 840 ms | HR: 71.4 bpm
+144511,  -> Median HR: 81.1 bpm | SDNN: 68.5 ms | Status: Normal
+145337,R-peak detected | RR: 836 ms | HR: 71.8 bpm
+145343,  -> Median HR: 73.9 bpm | SDNN: 71.6 ms | Status: Normal
+146172,R-peak detected | RR: 832 ms | HR: 72.1 bpm
+146177,  -> Median HR: 72.1 bpm | SDNN: 64.5 ms | Status: Normal
+146960,R-peak detected | RR: 792 ms | HR: 75.8 bpm
+146964,  -> Median HR: 72.1 bpm | SDNN: 48.7 ms | Status: Normal
+147712,R-peak detected | RR: 752 ms | HR: 79.8 bpm
+147718,  -> Median HR: 72.1 bpm | SDNN: 40.5 ms | Status: Normal
+148456,R-peak detected | RR: 744 ms | HR: 80.6 bpm
+148485,  -> Median HR: 72.1 bpm | SDNN: 39.7 ms | Status: Normal
+149188,R-peak detected | RR: 732 ms | HR: 82.0 bpm
+149193,  -> Median HR: 73.9 bpm | SDNN: 41.4 ms | Status: Normal
+149885,R-peak detected | RR: 696 ms | HR: 86.2 bpm
+149888,  -> Median HR: 75.8 bpm | SDNN: 51.2 ms | Status: Normal
+150620,R-peak detected | RR: 732 ms | HR: 82.0 bpm
+150624,  -> Median HR: 79.8 bpm | SDNN: 47.2 ms | Status: Normal
+151380,R-peak detected | RR: 764 ms | HR: 78.5 bpm
+151387,  -> Median HR: 79.8 bpm | SDNN: 38.8 ms | Status: Normal
+152084,R-peak detected | RR: 692 ms | HR: 86.7 bpm
+152089,  -> Median HR: 80.6 bpm | SDNN: 31.2 ms | Status: Normal
+152792,R-peak detected | RR: 720 ms | HR: 83.3 bpm
+152796,  -> Median HR: 82.0 bpm | SDNN: 23.8 ms | Status: Normal
+153508,R-peak detected | RR: 720 ms | HR: 83.3 bpm
+153513,  -> Median HR: 82.0 bpm | SDNN: 22.2 ms | Status: Normal
+154152,R-peak detected | RR: 632 ms | HR: 94.9 bpm
+154156,  -> Median HR: 83.3 bpm | SDNN: 36.5 ms | Status: Normal
+155584,R-peak detected | RR: 1432 ms | HR: 41.9 bpm
+155590,  -> Median HR: 83.3 bpm | SDNN: 242.1 ms | Status: Possible pause / dropped beat
+156292,R-peak detected | RR: 716 ms | HR: 83.8 bpm
+156301,"  -> Median HR: 83.3 bpm | SDNN: 241.1 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+157049,R-peak detected | RR: 752 ms | HR: 79.8 bpm
+157060,"  -> Median HR: 83.3 bpm | SDNN: 240.5 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+157868,R-peak detected | RR: 812 ms | HR: 73.9 bpm
+157877,"  -> Median HR: 83.3 bpm | SDNN: 240.0 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+158652,R-peak detected | RR: 792 ms | HR: 75.8 bpm

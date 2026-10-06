@@ -1,0 +1,139 @@
+elapsed_ms,raw_line
+2,"0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)"
+4,"configsip: 0, SPIWP:0xee"
+10,"clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00"
+12,"mode:DIO, clock div:1"
+15,"load:0x3fff0030,len:4876"
+16,ho 0 tail 12 room 4
+18,"load:0x40078000,len:16532"
+21,"load:0x40080400,len:3500"
+25,entry 0x400805b4
+133,ESP32 Arrhythmia Detector Starting...
+3131,Calibration done. Monitoring started.
+5004,R-peak detected | RR: 952 ms | HR: 63.0 bpm
+6002,R-peak detected | RR: 1000 ms | HR: 60.0 bpm
+6998,R-peak detected | RR: 996 ms | HR: 60.2 bpm
+8014,R-peak detected | RR: 1016 ms | HR: 59.1 bpm
+8020,  -> Median HR: 60.0 bpm | SDNN: 23.7 ms | Status: Normal
+9094,R-peak detected | RR: 1080 ms | HR: 55.6 bpm
+9099,  -> Median HR: 60.0 bpm | SDNN: 41.4 ms | Status: Normal
+10190,R-peak detected | RR: 1096 ms | HR: 54.7 bpm
+10199,  -> Median HR: 59.1 bpm | SDNN: 49.9 ms | Status: Bradycardia (HR < 60 bpm)
+11242,R-peak detected | RR: 1052 ms | HR: 57.0 bpm
+11249,  -> Median HR: 59.1 bpm | SDNN: 47.3 ms | Status: Bradycardia (HR < 60 bpm)
+12302,R-peak detected | RR: 1060 ms | HR: 56.6 bpm
+12309,  -> Median HR: 57.0 bpm | SDNN: 45.5 ms | Status: Bradycardia (HR < 60 bpm)
+13338,R-peak detected | RR: 1036 ms | HR: 57.9 bpm
+13344,  -> Median HR: 57.0 bpm | SDNN: 34.2 ms | Status: Bradycardia (HR < 60 bpm)
+14378,R-peak detected | RR: 1040 ms | HR: 57.7 bpm
+14388,  -> Median HR: 57.0 bpm | SDNN: 30.4 ms | Status: Bradycardia (HR < 60 bpm)
+15350,R-peak detected | RR: 972 ms | HR: 61.7 bpm
+15357,  -> Median HR: 57.0 bpm | SDNN: 36.0 ms | Status: Bradycardia (HR < 60 bpm)
+16342,R-peak detected | RR: 992 ms | HR: 60.5 bpm
+16348,  -> Median HR: 57.0 bpm | SDNN: 39.1 ms | Status: Bradycardia (HR < 60 bpm)
+17306,R-peak detected | RR: 964 ms | HR: 62.2 bpm
+17313,  -> Median HR: 57.7 bpm | SDNN: 43.2 ms | Status: Bradycardia (HR < 60 bpm)
+18270,R-peak detected | RR: 964 ms | HR: 62.2 bpm
+18276,  -> Median HR: 57.9 bpm | SDNN: 38.5 ms | Status: Bradycardia (HR < 60 bpm)
+19286,R-peak detected | RR: 1016 ms | HR: 59.1 bpm
+19293,  -> Median HR: 59.1 bpm | SDNN: 35.3 ms | Status: Bradycardia (HR < 60 bpm)
+20270,R-peak detected | RR: 984 ms | HR: 61.0 bpm
+20275,  -> Median HR: 60.5 bpm | SDNN: 29.0 ms | Status: Normal
+21294,R-peak detected | RR: 1024 ms | HR: 58.6 bpm
+21301,  -> Median HR: 60.5 bpm | SDNN: 27.1 ms | Status: Normal
+22354,R-peak detected | RR: 1060 ms | HR: 56.6 bpm
+22359,  -> Median HR: 60.5 bpm | SDNN: 31.7 ms | Status: Normal
+23326,R-peak detected | RR: 972 ms | HR: 61.7 bpm
+23331,  -> Median HR: 60.5 bpm | SDNN: 31.7 ms | Status: Normal
+24346,R-peak detected | RR: 1020 ms | HR: 58.8 bpm
+24353,  -> Median HR: 59.1 bpm | SDNN: 32.5 ms | Status: Bradycardia (HR < 60 bpm)
+24750,R-peak detected | RR: 404 ms | HR: 148.5 bpm
+24757,  -> Median HR: 59.1 bpm | SDNN: 201.2 ms | Status: Bradycardia (HR < 60 bpm)
+25622,R-peak detected | RR: 516 ms | HR: 116.3 bpm
+25628,  -> Median HR: 59.1 bpm | SDNN: 242.2 ms | Status: Bradycardia (HR < 60 bpm)
+26082,R-peak detected | RR: 460 ms | HR: 130.4 bpm
+26091,"  -> Median HR: 61.0 bpm | SDNN: 269.8 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+27166,R-peak detected | RR: 400 ms | HR: 150.0 bpm
+27175,"  -> Median HR: 61.7 bpm | SDNN: 289.8 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+34030,R-peak detected | RR: 404 ms | HR: 148.5 bpm
+34037,  -> Median HR: 116.3 bpm | SDNN: 284.2 ms | Status: Tachycardia (HR > 100 bpm)
+36594,R-peak detected | RR: 624 ms | HR: 96.2 bpm
+36601,  -> Median HR: 116.3 bpm | SDNN: 239.5 ms | Status: Tachycardia (HR > 100 bpm)
+36994,R-peak detected | RR: 400 ms | HR: 150.0 bpm
+37000,  -> Median HR: 130.4 bpm | SDNN: 199.9 ms | Status: Tachycardia (HR > 100 bpm)
+39062,R-peak detected | RR: 548 ms | HR: 109.5 bpm
+39068,  -> Median HR: 130.4 bpm | SDNN: 79.5 ms | Status: Tachycardia (HR > 100 bpm)
+44106,R-peak detected | RR: 1044 ms | HR: 57.5 bpm
+44116,  -> Median HR: 116.3 bpm | SDNN: 201.6 ms | Status: Possible pause / dropped beat
+44882,R-peak detected | RR: 776 ms | HR: 77.3 bpm
+44889,  -> Median HR: 109.5 bpm | SDNN: 214.1 ms | Status: Tachycardia (HR > 100 bpm)
+45678,R-peak detected | RR: 796 ms | HR: 75.4 bpm
+45688,"  -> Median HR: 96.2 bpm | SDNN: 219.0 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+46778,R-peak detected | RR: 1100 ms | HR: 54.5 bpm
+46788,"  -> Median HR: 77.3 bpm | SDNN: 249.7 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+47950,R-peak detected | RR: 1172 ms | HR: 51.2 bpm
+47962,"  -> Median HR: 75.4 bpm | SDNN: 260.4 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+49019,R-peak detected | RR: 1068 ms | HR: 56.2 bpm
+49025,  -> Median HR: 57.5 bpm | SDNN: 262.7 ms | Status: Bradycardia (HR < 60 bpm)
+50026,R-peak detected | RR: 1008 ms | HR: 59.5 bpm
+50033,  -> Median HR: 57.5 bpm | SDNN: 197.7 ms | Status: Bradycardia (HR < 60 bpm)
+51067,R-peak detected | RR: 1040 ms | HR: 57.7 bpm
+51073,  -> Median HR: 57.5 bpm | SDNN: 132.1 ms | Status: Bradycardia (HR < 60 bpm)
+55946,R-peak detected | RR: 1044 ms | HR: 57.5 bpm
+55953,  -> Median HR: 57.5 bpm | SDNN: 132.1 ms | Status: Bradycardia (HR < 60 bpm)
+56999,R-peak detected | RR: 1052 ms | HR: 57.0 bpm
+57005,  -> Median HR: 57.0 bpm | SDNN: 101.4 ms | Status: Bradycardia (HR < 60 bpm)
+58019,R-peak detected | RR: 1020 ms | HR: 58.8 bpm
+58025,  -> Median HR: 57.0 bpm | SDNN: 48.9 ms | Status: Bradycardia (HR < 60 bpm)
+61811,R-peak detected | RR: 1020 ms | HR: 58.8 bpm
+61817,  -> Median HR: 57.5 bpm | SDNN: 48.5 ms | Status: Bradycardia (HR < 60 bpm)
+63079,R-peak detected | RR: 1268 ms | HR: 47.3 bpm
+63085,  -> Median HR: 57.5 bpm | SDNN: 78.9 ms | Status: Bradycardia (HR < 60 bpm)
+65895,R-peak detected | RR: 1040 ms | HR: 57.7 bpm
+65901,  -> Median HR: 57.7 bpm | SDNN: 79.3 ms | Status: Bradycardia (HR < 60 bpm)
+66951,R-peak detected | RR: 1056 ms | HR: 56.8 bpm
+66957,  -> Median HR: 57.5 bpm | SDNN: 76.8 ms | Status: Bradycardia (HR < 60 bpm)
+67983,R-peak detected | RR: 1032 ms | HR: 58.1 bpm
+67991,  -> Median HR: 57.5 bpm | SDNN: 77.2 ms | Status: Bradycardia (HR < 60 bpm)
+69015,R-peak detected | RR: 1032 ms | HR: 58.1 bpm
+69023,  -> Median HR: 57.7 bpm | SDNN: 77.7 ms | Status: Bradycardia (HR < 60 bpm)
+69991,R-peak detected | RR: 976 ms | HR: 61.5 bpm
+69997,  -> Median HR: 58.1 bpm | SDNN: 83.2 ms | Status: Bradycardia (HR < 60 bpm)
+70955,R-peak detected | RR: 964 ms | HR: 62.2 bpm
+70961,  -> Median HR: 58.1 bpm | SDNN: 88.1 ms | Status: Bradycardia (HR < 60 bpm)
+71899,R-peak detected | RR: 944 ms | HR: 63.6 bpm
+71907,  -> Median HR: 58.1 bpm | SDNN: 94.5 ms | Status: Bradycardia (HR < 60 bpm)
+72351,R-peak detected | RR: 452 ms | HR: 132.7 bpm
+72359,  -> Median HR: 58.1 bpm | SDNN: 187.2 ms | Status: Bradycardia (HR < 60 bpm)
+72831,R-peak detected | RR: 480 ms | HR: 125.0 bpm
+72842,"  -> Median HR: 61.5 bpm | SDNN: 234.4 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+73787,R-peak detected | RR: 648 ms | HR: 92.6 bpm
+73796,"  -> Median HR: 62.2 bpm | SDNN: 232.1 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+74687,R-peak detected | RR: 596 ms | HR: 100.7 bpm
+74696,"  -> Median HR: 63.6 bpm | SDNN: 226.1 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+75571,R-peak detected | RR: 580 ms | HR: 103.4 bpm
+75580,"  -> Median HR: 92.6 bpm | SDNN: 207.1 ms | Status: Irregular rhythm (high RR variability, possible AFib)"
+76463,R-peak detected | RR: 588 ms | HR: 102.0 bpm
+76469,  -> Median HR: 100.7 bpm | SDNN: 181.8 ms | Status: Tachycardia (HR > 100 bpm)
+77291,R-peak detected | RR: 524 ms | HR: 114.5 bpm
+77297,  -> Median HR: 102.0 bpm | SDNN: 142.9 ms | Status: Tachycardia (HR > 100 bpm)
+78279,R-peak detected | RR: 684 ms | HR: 87.7 bpm
+78286,  -> Median HR: 102.0 bpm | SDNN: 74.4 ms | Status: Tachycardia (HR > 100 bpm)
+79235,R-peak detected | RR: 652 ms | HR: 92.0 bpm
+79242,  -> Median HR: 100.7 bpm | SDNN: 63.7 ms | Status: Tachycardia (HR > 100 bpm)
+80071,R-peak detected | RR: 532 ms | HR: 112.8 bpm
+80077,  -> Median HR: 100.7 bpm | SDNN: 53.6 ms | Status: Tachycardia (HR > 100 bpm)
+80867,R-peak detected | RR: 492 ms | HR: 122.0 bpm
+80874,  -> Median HR: 102.0 bpm | SDNN: 60.7 ms | Status: Tachycardia (HR > 100 bpm)
+81771,R-peak detected | RR: 600 ms | HR: 100.0 bpm
+81777,  -> Median HR: 102.0 bpm | SDNN: 60.9 ms | Status: Tachycardia (HR > 100 bpm)
+82751,R-peak detected | RR: 676 ms | HR: 88.8 bpm
+82756,  -> Median HR: 100.0 bpm | SDNN: 68.4 ms | Status: Normal
+83607,R-peak detected | RR: 552 ms | HR: 108.7 bpm
+83612,  -> Median HR: 100.0 bpm | SDNN: 69.8 ms | Status: Normal
+84595,R-peak detected | RR: 684 ms | HR: 87.7 bpm
+84600,  -> Median HR: 92.0 bpm | SDNN: 71.2 ms | Status: Normal
+85547,R-peak detected | RR: 648 ms | HR: 92.6 bpm
+85554,  -> Median HR: 92.6 bpm | SDNN: 67.3 ms | Status: Normal
+86367,R-peak detected | RR: 516 ms | HR: 116.3 bpm
+86373,  -> Median HR: 100.0 bpm | SDNN: 70.3 ms | Status: Normal

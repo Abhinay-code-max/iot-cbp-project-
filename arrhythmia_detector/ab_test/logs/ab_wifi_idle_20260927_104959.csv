@@ -1,0 +1,292 @@
+elapsed_ms,raw_line
+0,46
+0,
+1,rst:ets Jul 29 2019 12:21:46
+1,
+1,rst:ets Jul 29 2019 12:21:46
+1,
+1,rst:ets Jul 29 2019 12:21:46
+2,
+2,rst:ets Jul 29 2019 12:21:46
+2,
+2,rst:ets Jul 29 2019 12:21:46
+2,
+3,rst:ets Jul 29 2019 12:21:46
+3,
+3,rst:ets Jul 29 2019 12:21:46
+3,
+4,rst:ets Jul 29 2019 12:21:46
+4,
+4,rst:ets Jul 29 2019 12:21:46
+4,
+5,rst:ets Jul 29 2019 12:21:46
+5,
+5,rst:ets Jul 29 2019 12:21:46
+5,
+6,rst:ets Jul 29 2019 12:21:46
+6,
+6,rst:ets Jul 29 2019 12:21:46
+6,
+7,rst:ets Jul 29 2019 12:21:46
+7,
+7,rst:ets Jul 29 2019 12:21:46
+8,
+9,rst:ets Jul 29 2019 12:21:46
+9,
+9,rst:ets Jul 29 2019 12:21:46
+9,
+10,rst:ets Jul 29 2019 12:21:46
+10,
+11,rst:ets Jul 29 2019 12:21:46
+11,
+12,rst:ets Jul 29 2019 12:21:46
+12,
+12,rst:ets Jul 29 2019 12:21:46
+12,
+13,rst:ets Jul 29 2019 12:21:46
+13,
+13,rst:ets Jul 29 2019 12:21:46
+13,
+14,rst:ets Jul 29 2019 12:21:46
+14,
+15,rst:ets Jul 29 2019 12:21:46
+15,
+15,rst:ets Jul 29 2019 12:21:46
+15,
+16,rst:ets Jul 29 2019 12:21:46
+16,
+17,rst:ets Jul 29 2019 12:21:46
+17,
+18,rst:ets Jul 29 2019 12:21:46
+18,
+19,rst:ets Jul 29 2019 12:21:46
+19,
+19,rst:ets Jul 29 2019 12:21:46
+19,
+20,rst:ets Jul 29 2019 12:21:46
+20,
+41,"rst:0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 AST_FLASH_BOOT)"
+42,"configsip: 0, SPIWP:0xee"
+44,"clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00"
+44,"mode:DIO, clock div:1"
+45,"load:0x3fff0030,len:4876"
+45,ho 0 tail 12 room 4
+46,"load:0x40078000,len:16532"
+46,"load:0x40080400,len:3500"
+47,entry 0x400805b4
+421,WiFi AP started. SSID: ECG-Monitor  IP: 192.168.4.1
+427,ESP32 Arrhythmia Detector Starting...
+1423,DroppedSamples: 248
+2428,DroppedSamples: 0
+3420,Calibration done. Monitoring started.
+3420,DroppedSamples: 0
+4422,DroppedSamples: 0
+4527,R-peak detected | RR: 672 ms | HR: 89.3 bpm
+5207,R-peak detected | RR: 660 ms | HR: 90.9 bpm
+5422,DroppedSamples: 0
+5911,R-peak detected | RR: 724 ms | HR: 82.9 bpm
+6422,DroppedSamples: 0
+6627,R-peak detected | RR: 700 ms | HR: 85.7 bpm
+6632,  -> Median HR: 85.7 bpm | SDNN: 24.9 ms | Status: Normal
+7347,R-peak detected | RR: 716 ms | HR: 83.8 bpm
+7352,  -> Median HR: 85.7 bpm | SDNN: 24.7 ms | Status: Normal
+7419,DroppedSamples: 0
+8071,R-peak detected | RR: 724 ms | HR: 82.9 bpm
+8076,  -> Median HR: 83.8 bpm | SDNN: 25.1 ms | Status: Normal
+8422,DroppedSamples: 0
+8791,R-peak detected | RR: 720 ms | HR: 83.3 bpm
+8796,  -> Median HR: 83.8 bpm | SDNN: 24.4 ms | Status: Normal
+9422,DroppedSamples: 0
+9483,R-peak detected | RR: 716 ms | HR: 83.8 bpm
+9490,  -> Median HR: 83.8 bpm | SDNN: 23.2 ms | Status: Normal
+10175,R-peak detected | RR: 688 ms | HR: 87.2 bpm
+10180,  -> Median HR: 83.8 bpm | SDNN: 21.0 ms | Status: Normal
+10423,DroppedSamples: 0
+10867,R-peak detected | RR: 692 ms | HR: 86.7 bpm
+10874,  -> Median HR: 83.8 bpm | SDNN: 13.6 ms | Status: Normal
+11422,DroppedSamples: 0
+11551,R-peak detected | RR: 668 ms | HR: 89.8 bpm
+11556,  -> Median HR: 83.8 bpm | SDNN: 18.2 ms | Status: Normal
+12259,R-peak detected | RR: 732 ms | HR: 82.0 bpm
+12264,  -> Median HR: 83.8 bpm | SDNN: 20.5 ms | Status: Normal
+12424,DroppedSamples: 0
+12963,R-peak detected | RR: 700 ms | HR: 85.7 bpm
+12968,  -> Median HR: 83.8 bpm | SDNN: 20.3 ms | Status: Normal
+13422,DroppedSamples: 0
+13671,R-peak detected | RR: 696 ms | HR: 86.2 bpm
+13676,  -> Median HR: 85.7 bpm | SDNN: 19.1 ms | Status: Normal
+14387,R-peak detected | RR: 728 ms | HR: 82.4 bpm
+14392,  -> Median HR: 85.7 bpm | SDNN: 20.2 ms | Status: Normal
+14420,DroppedSamples: 0
+15099,R-peak detected | RR: 712 ms | HR: 84.3 bpm
+15104,  -> Median HR: 85.7 bpm | SDNN: 19.9 ms | Status: Normal
+15423,DroppedSamples: 0
+15811,R-peak detected | RR: 704 ms | HR: 85.2 bpm
+15816,  -> Median HR: 85.2 bpm | SDNN: 19.2 ms | Status: Normal
+16423,DroppedSamples: 0
+16527,R-peak detected | RR: 724 ms | HR: 82.9 bpm
+16532,  -> Median HR: 84.3 bpm | SDNN: 19.6 ms | Status: Normal
+17239,R-peak detected | RR: 712 ms | HR: 84.3 bpm
+17244,  -> Median HR: 84.3 bpm | SDNN: 12.5 ms | Status: Normal
+17424,DroppedSamples: 0
+17975,R-peak detected | RR: 724 ms | HR: 82.9 bpm
+17982,  -> Median HR: 84.3 bpm | SDNN: 11.2 ms | Status: Normal
+18422,DroppedSamples: 0
+18695,R-peak detected | RR: 708 ms | HR: 84.7 bpm
+18700,  -> Median HR: 84.3 bpm | SDNN: 10.4 ms | Status: Normal
+19399,R-peak detected | RR: 728 ms | HR: 82.4 bpm
+19404,  -> Median HR: 82.9 bpm | SDNN: 8.9 ms | Status: Normal
+19420,DroppedSamples: 0
+20127,R-peak detected | RR: 732 ms | HR: 82.0 bpm
+20132,  -> Median HR: 82.9 bpm | SDNN: 9.6 ms | Status: Normal
+20422,DroppedSamples: 0
+20823,R-peak detected | RR: 692 ms | HR: 86.7 bpm
+20828,  -> Median HR: 82.9 bpm | SDNN: 12.9 ms | Status: Normal
+21422,DroppedSamples: 0
+21539,R-peak detected | RR: 692 ms | HR: 86.7 bpm
+21544,  -> Median HR: 82.9 bpm | SDNN: 14.7 ms | Status: Normal
+22235,R-peak detected | RR: 700 ms | HR: 85.7 bpm
+22240,  -> Median HR: 84.3 bpm | SDNN: 14.8 ms | Status: Normal
+22422,DroppedSamples: 0
+22935,R-peak detected | RR: 716 ms | HR: 83.8 bpm
+22940,  -> Median HR: 83.8 bpm | SDNN: 14.9 ms | Status: Normal
+23422,DroppedSamples: 0
+23651,R-peak detected | RR: 720 ms | HR: 83.3 bpm
+23656,  -> Median HR: 83.8 bpm | SDNN: 14.5 ms | Status: Normal
+24359,R-peak detected | RR: 688 ms | HR: 87.2 bpm
+24364,  -> Median HR: 83.8 bpm | SDNN: 16.4 ms | Status: Normal
+24419,DroppedSamples: 0
+25091,R-peak detected | RR: 752 ms | HR: 79.8 bpm
+25096,  -> Median HR: 83.8 bpm | SDNN: 21.2 ms | Status: Normal
+25424,DroppedSamples: 0
+25811,R-peak detected | RR: 720 ms | HR: 83.3 bpm
+25818,  -> Median HR: 83.8 bpm | SDNN: 20.1 ms | Status: Normal
+26422,DroppedSamples: 0
+26503,R-peak detected | RR: 680 ms | HR: 88.2 bpm
+26508,  -> Median HR: 83.8 bpm | SDNN: 21.8 ms | Status: Normal
+27207,R-peak detected | RR: 724 ms | HR: 82.9 bpm
+27212,  -> Median HR: 83.3 bpm | SDNN: 21.3 ms | Status: Normal
+27422,DroppedSamples: 0
+27911,R-peak detected | RR: 700 ms | HR: 85.7 bpm
+27916,  -> Median HR: 83.3 bpm | SDNN: 21.3 ms | Status: Normal
+28422,DroppedSamples: 0
+28603,R-peak detected | RR: 664 ms | HR: 90.4 bpm
+28608,  -> Median HR: 83.3 bpm | SDNN: 26.5 ms | Status: Normal
+29291,R-peak detected | RR: 716 ms | HR: 83.8 bpm
+29296,  -> Median HR: 83.8 bpm | SDNN: 26.3 ms | Status: Normal
+29423,DroppedSamples: 0
+29975,R-peak detected | RR: 680 ms | HR: 88.2 bpm
+29980,  -> Median HR: 83.8 bpm | SDNN: 27.1 ms | Status: Normal
+30422,DroppedSamples: 0
+30663,R-peak detected | RR: 676 ms | HR: 88.8 bpm
+30670,  -> Median HR: 85.7 bpm | SDNN: 21.5 ms | Status: Normal
+31363,R-peak detected | RR: 700 ms | HR: 85.7 bpm
+31368,  -> Median HR: 85.7 bpm | SDNN: 19.5 ms | Status: Normal
+31420,DroppedSamples: 0
+32063,R-peak detected | RR: 692 ms | HR: 86.7 bpm
+32068,  -> Median HR: 85.7 bpm | SDNN: 19.0 ms | Status: Normal
+32422,DroppedSamples: 0
+32759,R-peak detected | RR: 716 ms | HR: 83.8 bpm
+32766,  -> Median HR: 85.7 bpm | SDNN: 17.5 ms | Status: Normal
+33422,DroppedSamples: 0
+33463,R-peak detected | RR: 692 ms | HR: 86.7 bpm
+33468,  -> Median HR: 86.7 bpm | SDNN: 17.3 ms | Status: Normal
+34095,R-peak detected | RR: 672 ms | HR: 89.3 bpm
+34100,  -> Median HR: 86.7 bpm | SDNN: 15.8 ms | Status: Normal
+34422,DroppedSamples: 0
+34851,R-peak detected | RR: 728 ms | HR: 82.4 bpm
+34856,  -> Median HR: 86.7 bpm | SDNN: 18.3 ms | Status: Normal
+35422,DroppedSamples: 0
+35547,R-peak detected | RR: 676 ms | HR: 88.8 bpm
+35552,  -> Median HR: 86.7 bpm | SDNN: 18.8 ms | Status: Normal
+36247,R-peak detected | RR: 696 ms | HR: 86.2 bpm
+36252,  -> Median HR: 86.2 bpm | SDNN: 17.5 ms | Status: Normal
+36424,DroppedSamples: 0
+36931,R-peak detected | RR: 704 ms | HR: 85.2 bpm
+36936,  -> Median HR: 86.2 bpm | SDNN: 17.6 ms | Status: Normal
+37422,DroppedSamples: 0
+37635,R-peak detected | RR: 712 ms | HR: 84.3 bpm
+37640,  -> Median HR: 85.2 bpm | SDNN: 18.2 ms | Status: Normal
+38347,R-peak detected | RR: 688 ms | HR: 87.2 bpm
+38352,  -> Median HR: 86.2 bpm | SDNN: 17.3 ms | Status: Normal
+38419,DroppedSamples: 0
+39047,R-peak detected | RR: 708 ms | HR: 84.7 bpm
+39052,  -> Median HR: 85.2 bpm | SDNN: 17.7 ms | Status: Normal
+39420,DroppedSamples: 0
+39771,R-peak detected | RR: 712 ms | HR: 84.3 bpm
+39776,  -> Median HR: 84.7 bpm | SDNN: 15.1 ms | Status: Normal
+40424,DroppedSamples: 0
+40495,R-peak detected | RR: 756 ms | HR: 79.4 bpm
+40500,  -> Median HR: 84.7 bpm | SDNN: 22.1 ms | Status: Normal
+41215,R-peak detected | RR: 712 ms | HR: 84.3 bpm
+41222,  -> Median HR: 84.3 bpm | SDNN: 18.8 ms | Status: Normal
+41422,DroppedSamples: 0
+41943,R-peak detected | RR: 728 ms | HR: 82.4 bpm
+41948,  -> Median HR: 84.3 bpm | SDNN: 18.6 ms | Status: Normal
+42422,DroppedSamples: 0
+42659,R-peak detected | RR: 720 ms | HR: 83.3 bpm
+42664,  -> Median HR: 84.3 bpm | SDNN: 18.2 ms | Status: Normal
+43375,R-peak detected | RR: 696 ms | HR: 86.2 bpm
+43380,  -> Median HR: 84.3 bpm | SDNN: 19.5 ms | Status: Normal
+43420,DroppedSamples: 0
+44125,R-peak detected | RR: 756 ms | HR: 79.4 bpm
+44126,  -> Median HR: 83.3 bpm | SDNN: 20.6 ms | Status: Normal
+44422,DroppedSamples: 0
+44871,R-peak detected | RR: 752 ms | HR: 79.8 bpm
+44878,  -> Median HR: 82.4 bpm | SDNN: 21.6 ms | Status: Normal
+45430,DroppedSamples: 0
+45619,R-peak detected | RR: 752 ms | HR: 79.8 bpm
+45626,  -> Median HR: 79.8 bpm | SDNN: 21.7 ms | Status: Normal
+46375,R-peak detected | RR: 732 ms | HR: 82.0 bpm
+46382,  -> Median HR: 82.0 bpm | SDNN: 20.1 ms | Status: Normal
+46422,DroppedSamples: 0
+47083,R-peak detected | RR: 736 ms | HR: 81.5 bpm
+47088,  -> Median HR: 81.5 bpm | SDNN: 18.8 ms | Status: Normal
+47422,DroppedSamples: 0
+47799,R-peak detected | RR: 712 ms | HR: 84.3 bpm
+47804,  -> Median HR: 81.5 bpm | SDNN: 20.1 ms | Status: Normal
+48422,DroppedSamples: 0
+48515,R-peak detected | RR: 712 ms | HR: 84.3 bpm
+48520,  -> Median HR: 81.5 bpm | SDNN: 20.9 ms | Status: Normal
+49215,R-peak detected | RR: 692 ms | HR: 86.7 bpm
+49220,  -> Median HR: 81.5 bpm | SDNN: 21.7 ms | Status: Normal
+49423,DroppedSamples: 0
+49927,R-peak detected | RR: 720 ms | HR: 83.3 bpm
+49932,  -> Median HR: 82.0 bpm | SDNN: 19.6 ms | Status: Normal
+50422,DroppedSamples: 0
+50639,R-peak detected | RR: 716 ms | HR: 83.8 bpm
+50644,  -> Median HR: 83.3 bpm | SDNN: 17.1 ms | Status: Normal
+51355,R-peak detected | RR: 712 ms | HR: 84.3 bpm
+51360,  -> Median HR: 83.8 bpm | SDNN: 12.7 ms | Status: Normal
+51420,DroppedSamples: 0
+52083,R-peak detected | RR: 708 ms | HR: 84.7 bpm
+52088,  -> Median HR: 84.3 bpm | SDNN: 11.5 ms | Status: Normal
+52422,DroppedSamples: 0
+52799,R-peak detected | RR: 720 ms | HR: 83.3 bpm
+52804,  -> Median HR: 84.3 bpm | SDNN: 8.4 ms | Status: Normal
+53422,DroppedSamples: 0
+53511,R-peak detected | RR: 732 ms | HR: 82.0 bpm
+53516,  -> Median HR: 83.8 bpm | SDNN: 10.8 ms | Status: Normal
+54223,R-peak detected | RR: 688 ms | HR: 87.2 bpm
+54228,  -> Median HR: 83.8 bpm | SDNN: 13.8 ms | Status: Normal
+54422,DroppedSamples: 0
+54923,R-peak detected | RR: 700 ms | HR: 85.7 bpm
+54928,  -> Median HR: 83.8 bpm | SDNN: 12.6 ms | Status: Normal
+55423,DroppedSamples: 0
+55643,R-peak detected | RR: 724 ms | HR: 82.9 bpm
+55648,  -> Median HR: 83.8 bpm | SDNN: 13.0 ms | Status: Normal
+56383,R-peak detected | RR: 736 ms | HR: 81.5 bpm
+56390,  -> Median HR: 83.3 bpm | SDNN: 15.2 ms | Status: Normal
+56423,DroppedSamples: 0
+57111,R-peak detected | RR: 756 ms | HR: 79.4 bpm
+57116,  -> Median HR: 82.9 bpm | SDNN: 20.2 ms | Status: Normal
+57422,DroppedSamples: 0
+57843,R-peak detected | RR: 716 ms | HR: 83.8 bpm
+57848,  -> Median HR: 82.9 bpm | SDNN: 19.8 ms | Status: Normal
+58422,DroppedSamples: 0
+58563,R-peak detected | RR: 712 ms | HR: 84.3 bpm
+58568,  -> Median HR: 82.9 bpm | SDNN: 20.0 ms | Status: Normal
+59279,R-peak detected | RR: 736 ms | HR: 81.5 bpm
+59284,  -> Median HR: 82.9 bpm | SDNN: 20.4 ms | Status: Normal
+59423,DroppedSamples: 0
+60023,R-peak detected | RR: 740 ms | HR: 81.1 bpm

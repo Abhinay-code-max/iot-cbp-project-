@@ -1,0 +1,214 @@
+elapsed_ms,raw_line
+3,"0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)"
+5,"configsip: 0, SPIWP:0xee"
+10,"clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00"
+13,"mode:DIO, clock div:1"
+16,"load:0x3fff0030,len:4876"
+16,ho 0 tail 12 room 4
+19,"load:0x40078000,len:16532"
+22,"load:0x40080400,len:3500"
+25,entry 0x400805b4
+134,ESP32 Arrhythmia Detector Starting...
+3131,Calibration done. Monitoring started.
+4833,R-peak detected | RR: 928 ms | HR: 64.7 bpm
+5685,R-peak detected | RR: 852 ms | HR: 70.4 bpm
+6579,R-peak detected | RR: 900 ms | HR: 66.7 bpm
+7563,R-peak detected | RR: 984 ms | HR: 61.0 bpm
+7568,  -> Median HR: 64.7 bpm | SDNN: 47.7 ms | Status: Normal
+8563,R-peak detected | RR: 992 ms | HR: 60.5 bpm
+8568,  -> Median HR: 64.7 bpm | SDNN: 52.4 ms | Status: Normal
+9559,R-peak detected | RR: 996 ms | HR: 60.2 bpm
+9564,  -> Median HR: 61.0 bpm | SDNN: 53.6 ms | Status: Normal
+10587,R-peak detected | RR: 1036 ms | HR: 57.9 bpm
+10591,  -> Median HR: 61.0 bpm | SDNN: 59.5 ms | Status: Normal
+11623,R-peak detected | RR: 1028 ms | HR: 58.4 bpm
+11630,  -> Median HR: 60.5 bpm | SDNN: 60.6 ms | Status: Normal
+12591,R-peak detected | RR: 972 ms | HR: 61.7 bpm
+12595,  -> Median HR: 60.5 bpm | SDNN: 59.1 ms | Status: Normal
+13551,R-peak detected | RR: 960 ms | HR: 62.5 bpm
+13556,  -> Median HR: 60.5 bpm | SDNN: 39.7 ms | Status: Normal
+14531,R-peak detected | RR: 984 ms | HR: 61.0 bpm
+14536,  -> Median HR: 60.5 bpm | SDNN: 24.4 ms | Status: Normal
+15495,R-peak detected | RR: 956 ms | HR: 62.8 bpm
+15500,  -> Median HR: 60.5 bpm | SDNN: 27.4 ms | Status: Normal
+16391,R-peak detected | RR: 900 ms | HR: 66.7 bpm
+16396,  -> Median HR: 61.0 bpm | SDNN: 40.5 ms | Status: Normal
+17191,R-peak detected | RR: 804 ms | HR: 74.6 bpm
+17196,  -> Median HR: 61.7 bpm | SDNN: 69.7 ms | Status: Normal
+18087,R-peak detected | RR: 892 ms | HR: 67.3 bpm
+18092,  -> Median HR: 62.5 bpm | SDNN: 64.9 ms | Status: Normal
+19100,R-peak detected | RR: 1016 ms | HR: 59.1 bpm
+19105,  -> Median HR: 62.5 bpm | SDNN: 62.9 ms | Status: Normal
+20147,R-peak detected | RR: 1048 ms | HR: 57.3 bpm
+20152,  -> Median HR: 62.5 bpm | SDNN: 72.7 ms | Status: Normal
+21084,R-peak detected | RR: 932 ms | HR: 64.4 bpm
+21088,  -> Median HR: 62.8 bpm | SDNN: 72.5 ms | Status: Normal
+22039,R-peak detected | RR: 960 ms | HR: 62.5 bpm
+22046,  -> Median HR: 62.8 bpm | SDNN: 71.2 ms | Status: Normal
+22991,R-peak detected | RR: 944 ms | HR: 63.6 bpm
+22996,  -> Median HR: 63.6 bpm | SDNN: 70.9 ms | Status: Normal
+23879,R-peak detected | RR: 888 ms | HR: 67.6 bpm
+23884,  -> Median HR: 63.6 bpm | SDNN: 71.8 ms | Status: Normal
+24751,R-peak detected | RR: 880 ms | HR: 68.2 bpm
+24756,  -> Median HR: 63.6 bpm | SDNN: 57.4 ms | Status: Normal
+25544,R-peak detected | RR: 796 ms | HR: 75.4 bpm
+25548,  -> Median HR: 63.6 bpm | SDNN: 74.6 ms | Status: Normal
+26271,R-peak detected | RR: 724 ms | HR: 82.9 bpm
+26276,  -> Median HR: 64.4 bpm | SDNN: 94.0 ms | Status: Normal
+27003,R-peak detected | RR: 728 ms | HR: 82.4 bpm
+27009,  -> Median HR: 67.6 bpm | SDNN: 89.0 ms | Status: Normal
+27743,R-peak detected | RR: 744 ms | HR: 80.6 bpm
+27748,  -> Median HR: 68.2 bpm | SDNN: 90.7 ms | Status: Normal
+28523,R-peak detected | RR: 776 ms | HR: 77.3 bpm
+28527,  -> Median HR: 75.4 bpm | SDNN: 78.1 ms | Status: Normal
+29343,R-peak detected | RR: 828 ms | HR: 72.5 bpm
+29348,  -> Median HR: 75.4 bpm | SDNN: 60.7 ms | Status: Normal
+30219,R-peak detected | RR: 872 ms | HR: 68.8 bpm
+30224,  -> Median HR: 75.4 bpm | SDNN: 57.8 ms | Status: Normal
+31144,R-peak detected | RR: 920 ms | HR: 65.2 bpm
+31148,  -> Median HR: 75.4 bpm | SDNN: 66.2 ms | Status: Normal
+32128,R-peak detected | RR: 988 ms | HR: 60.7 bpm
+32132,  -> Median HR: 72.5 bpm | SDNN: 91.1 ms | Status: Normal
+33111,R-peak detected | RR: 980 ms | HR: 61.2 bpm
+33116,  -> Median HR: 68.8 bpm | SDNN: 95.7 ms | Status: Normal
+34019,R-peak detected | RR: 912 ms | HR: 65.8 bpm
+34024,  -> Median HR: 65.8 bpm | SDNN: 83.9 ms | Status: Normal
+34967,R-peak detected | RR: 944 ms | HR: 63.6 bpm
+34974,  -> Median HR: 65.2 bpm | SDNN: 68.8 ms | Status: Normal
+35864,R-peak detected | RR: 900 ms | HR: 66.7 bpm
+35868,  -> Median HR: 65.2 bpm | SDNN: 50.0 ms | Status: Normal
+36767,R-peak detected | RR: 900 ms | HR: 66.7 bpm
+36772,  -> Median HR: 65.2 bpm | SDNN: 38.0 ms | Status: Normal
+37612,R-peak detected | RR: 840 ms | HR: 71.4 bpm
+37618,  -> Median HR: 65.2 bpm | SDNN: 44.7 ms | Status: Normal
+38467,R-peak detected | RR: 864 ms | HR: 69.4 bpm
+38474,  -> Median HR: 65.8 bpm | SDNN: 48.8 ms | Status: Normal
+39271,R-peak detected | RR: 800 ms | HR: 75.0 bpm
+39276,  -> Median HR: 66.7 bpm | SDNN: 53.5 ms | Status: Normal
+40079,R-peak detected | RR: 812 ms | HR: 73.9 bpm
+40084,  -> Median HR: 66.7 bpm | SDNN: 47.7 ms | Status: Normal
+40933,R-peak detected | RR: 848 ms | HR: 70.8 bpm
+40934,  -> Median HR: 69.4 bpm | SDNN: 45.6 ms | Status: Normal
+41772,R-peak detected | RR: 840 ms | HR: 71.4 bpm
+41775,  -> Median HR: 70.8 bpm | SDNN: 34.2 ms | Status: Normal
+42701,R-peak detected | RR: 928 ms | HR: 64.7 bpm
+42706,  -> Median HR: 70.8 bpm | SDNN: 40.0 ms | Status: Normal
+43648,R-peak detected | RR: 948 ms | HR: 63.3 bpm
+43654,  -> Median HR: 70.8 bpm | SDNN: 49.0 ms | Status: Normal
+44576,R-peak detected | RR: 932 ms | HR: 64.4 bpm
+44579,  -> Median HR: 69.4 bpm | SDNN: 53.6 ms | Status: Normal
+45575,R-peak detected | RR: 1004 ms | HR: 59.8 bpm
+45580,  -> Median HR: 64.7 bpm | SDNN: 68.9 ms | Status: Normal
+46514,R-peak detected | RR: 920 ms | HR: 65.2 bpm
+46515,  -> Median HR: 64.7 bpm | SDNN: 60.5 ms | Status: Normal
+47415,R-peak detected | RR: 916 ms | HR: 65.5 bpm
+47420,  -> Median HR: 64.7 bpm | SDNN: 49.5 ms | Status: Normal
+48352,R-peak detected | RR: 928 ms | HR: 64.7 bpm
+48355,  -> Median HR: 64.7 bpm | SDNN: 42.0 ms | Status: Normal
+49235,R-peak detected | RR: 892 ms | HR: 67.3 bpm
+49240,  -> Median HR: 64.7 bpm | SDNN: 30.5 ms | Status: Normal
+50152,R-peak detected | RR: 916 ms | HR: 65.5 bpm
+50158,  -> Median HR: 64.7 bpm | SDNN: 31.0 ms | Status: Normal
+51079,R-peak detected | RR: 924 ms | HR: 64.9 bpm
+51084,  -> Median HR: 64.9 bpm | SDNN: 30.5 ms | Status: Normal
+52000,R-peak detected | RR: 924 ms | HR: 64.9 bpm
+52006,  -> Median HR: 64.9 bpm | SDNN: 30.5 ms | Status: Normal
+52975,R-peak detected | RR: 976 ms | HR: 61.5 bpm
+52980,  -> Median HR: 64.9 bpm | SDNN: 22.0 ms | Status: Normal
+53948,R-peak detected | RR: 968 ms | HR: 62.0 bpm
+53952,  -> Median HR: 64.9 bpm | SDNN: 26.1 ms | Status: Normal
+54932,R-peak detected | RR: 988 ms | HR: 60.7 bpm
+54935,  -> Median HR: 64.7 bpm | SDNN: 31.5 ms | Status: Normal
+55947,R-peak detected | RR: 1008 ms | HR: 59.5 bpm
+55955,  -> Median HR: 62.0 bpm | SDNN: 38.2 ms | Status: Normal
+56875,R-peak detected | RR: 928 ms | HR: 64.7 bpm
+56879,  -> Median HR: 62.0 bpm | SDNN: 32.9 ms | Status: Normal
+57855,R-peak detected | RR: 984 ms | HR: 61.0 bpm
+57860,  -> Median HR: 61.5 bpm | SDNN: 30.7 ms | Status: Normal
+58831,R-peak detected | RR: 972 ms | HR: 61.7 bpm
+58835,  -> Median HR: 61.5 bpm | SDNN: 27.1 ms | Status: Normal
+59723,R-peak detected | RR: 896 ms | HR: 67.0 bpm
+59728,  -> Median HR: 61.5 bpm | SDNN: 33.6 ms | Status: Normal
+60672,R-peak detected | RR: 944 ms | HR: 63.6 bpm
+60679,  -> Median HR: 61.7 bpm | SDNN: 34.0 ms | Status: Normal
+61540,R-peak detected | RR: 872 ms | HR: 68.8 bpm
+61544,  -> Median HR: 61.7 bpm | SDNN: 44.7 ms | Status: Normal
+62359,R-peak detected | RR: 824 ms | HR: 72.8 bpm
+62364,  -> Median HR: 63.6 bpm | SDNN: 57.8 ms | Status: Normal
+63268,R-peak detected | RR: 908 ms | HR: 66.1 bpm
+63272,  -> Median HR: 64.7 bpm | SDNN: 49.4 ms | Status: Normal
+64192,R-peak detected | RR: 916 ms | HR: 65.5 bpm
+64196,  -> Median HR: 65.5 bpm | SDNN: 49.2 ms | Status: Normal
+65020,R-peak detected | RR: 836 ms | HR: 71.8 bpm
+65024,  -> Median HR: 66.1 bpm | SDNN: 47.4 ms | Status: Normal
+65908,R-peak detected | RR: 888 ms | HR: 67.6 bpm
+65912,  -> Median HR: 67.0 bpm | SDNN: 37.7 ms | Status: Normal
+66887,R-peak detected | RR: 972 ms | HR: 61.7 bpm
+66892,  -> Median HR: 66.1 bpm | SDNN: 47.5 ms | Status: Normal
+67821,R-peak detected | RR: 928 ms | HR: 64.7 bpm
+67822,  -> Median HR: 66.1 bpm | SDNN: 45.7 ms | Status: Normal
+68743,R-peak detected | RR: 936 ms | HR: 64.1 bpm
+68751,  -> Median HR: 65.5 bpm | SDNN: 46.9 ms | Status: Normal
+69644,R-peak detected | RR: 892 ms | HR: 67.3 bpm
+69648,  -> Median HR: 65.5 bpm | SDNN: 37.4 ms | Status: Normal
+70548,R-peak detected | RR: 912 ms | HR: 65.8 bpm
+70552,  -> Median HR: 65.5 bpm | SDNN: 37.4 ms | Status: Normal
+71516,R-peak detected | RR: 968 ms | HR: 62.0 bpm
+71521,  -> Median HR: 64.7 bpm | SDNN: 42.1 ms | Status: Normal
+72480,R-peak detected | RR: 956 ms | HR: 62.8 bpm
+72485,  -> Median HR: 64.1 bpm | SDNN: 30.5 ms | Status: Normal
+73428,R-peak detected | RR: 948 ms | HR: 63.3 bpm
+73435,  -> Median HR: 63.3 bpm | SDNN: 25.9 ms | Status: Normal
+74444,R-peak detected | RR: 1024 ms | HR: 58.6 bpm
+74451,  -> Median HR: 63.3 bpm | SDNN: 37.4 ms | Status: Normal
+75452,R-peak detected | RR: 1000 ms | HR: 60.0 bpm
+75457,  -> Median HR: 62.8 bpm | SDNN: 40.6 ms | Status: Normal
+76336,R-peak detected | RR: 888 ms | HR: 67.6 bpm
+76341,  -> Median HR: 62.8 bpm | SDNN: 46.1 ms | Status: Normal
+77261,R-peak detected | RR: 844 ms | HR: 71.1 bpm
+77263,  -> Median HR: 62.8 bpm | SDNN: 55.2 ms | Status: Normal
+78028,R-peak detected | RR: 840 ms | HR: 71.4 bpm
+78035,  -> Median HR: 62.8 bpm | SDNN: 64.6 ms | Status: Normal
+78936,R-peak detected | RR: 924 ms | HR: 64.9 bpm
+78943,  -> Median HR: 63.3 bpm | SDNN: 63.2 ms | Status: Normal
+79800,R-peak detected | RR: 856 ms | HR: 70.1 bpm
+79807,  -> Median HR: 64.9 bpm | SDNN: 66.3 ms | Status: Normal
+80636,R-peak detected | RR: 840 ms | HR: 71.4 bpm
+80643,  -> Median HR: 67.6 bpm | SDNN: 69.2 ms | Status: Normal
+81368,R-peak detected | RR: 732 ms | HR: 82.0 bpm
+81373,  -> Median HR: 70.1 bpm | SDNN: 72.2 ms | Status: Normal
+82088,R-peak detected | RR: 724 ms | HR: 82.9 bpm
+82092,  -> Median HR: 71.1 bpm | SDNN: 65.3 ms | Status: Normal
+82960,R-peak detected | RR: 864 ms | HR: 69.4 bpm
+82967,  -> Median HR: 71.1 bpm | SDNN: 63.1 ms | Status: Normal
+83820,R-peak detected | RR: 856 ms | HR: 70.1 bpm
+83825,  -> Median HR: 70.1 bpm | SDNN: 63.6 ms | Status: Normal
+84712,R-peak detected | RR: 900 ms | HR: 66.7 bpm
+84717,  -> Median HR: 70.1 bpm | SDNN: 67.8 ms | Status: Normal
+85608,R-peak detected | RR: 900 ms | HR: 66.7 bpm
+85613,  -> Median HR: 70.1 bpm | SDNN: 64.3 ms | Status: Normal
+86464,R-peak detected | RR: 848 ms | HR: 70.8 bpm
+86471,  -> Median HR: 70.1 bpm | SDNN: 64.1 ms | Status: Normal
+87244,R-peak detected | RR: 788 ms | HR: 76.1 bpm
+87249,  -> Median HR: 70.1 bpm | SDNN: 65.6 ms | Status: Normal
+88092,R-peak detected | RR: 848 ms | HR: 70.8 bpm
+88099,  -> Median HR: 70.1 bpm | SDNN: 55.1 ms | Status: Normal
+89008,R-peak detected | RR: 904 ms | HR: 66.4 bpm
+89013,  -> Median HR: 69.4 bpm | SDNN: 36.3 ms | Status: Normal
+89860,R-peak detected | RR: 860 ms | HR: 69.8 bpm
+89865,  -> Median HR: 69.8 bpm | SDNN: 36.3 ms | Status: Normal
+90716,R-peak detected | RR: 856 ms | HR: 70.1 bpm
+90723,  -> Median HR: 69.8 bpm | SDNN: 36.3 ms | Status: Normal
+91628,R-peak detected | RR: 912 ms | HR: 65.8 bpm
+91633,  -> Median HR: 69.8 bpm | SDNN: 38.0 ms | Status: Normal
+92512,R-peak detected | RR: 876 ms | HR: 68.5 bpm
+92517,  -> Median HR: 69.8 bpm | SDNN: 36.0 ms | Status: Normal
+93304,R-peak detected | RR: 800 ms | HR: 75.0 bpm
+93309,  -> Median HR: 69.8 bpm | SDNN: 41.3 ms | Status: Normal
+94108,R-peak detected | RR: 804 ms | HR: 74.6 bpm
+94113,  -> Median HR: 69.8 bpm | SDNN: 38.3 ms | Status: Normal
+94992,R-peak detected | RR: 884 ms | HR: 67.9 bpm
+94997,  -> Median HR: 68.5 bpm | SDNN: 39.0 ms | Status: Normal
+95820,R-peak detected | RR: 828 ms | HR: 72.5 bpm
+95825,  -> Median HR: 69.8 bpm | SDNN: 36.8 ms | Status: Normal
+96612,R-peak detected | RR: 796 ms | HR: 75.4 bpm

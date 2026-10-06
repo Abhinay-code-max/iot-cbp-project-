@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-100 font-sans antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  /* Ensure numbers in real-time displays never jitter */
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom scrollbar for sleek dark/light medical UI */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* ECG Paper grid styling */
+.ecg-grid-dark {
+  background-color: #0c1222;
+  background-image: 
+    linear-gradient(rgba(30, 41, 59, 0.45) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30, 41, 59, 0.45) 1px, transparent 1px),
+    linear-gradient(rgba(51, 65, 85, 0.8) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(51, 65, 85, 0.8) 1px, transparent 1px);
+  background-size: 10px 10px, 10px 10px, 50px 50px, 50px 50px;
+}
+
+.ecg-grid-light {
+  background-color: #fffaf7;
+  background-image: 
+    linear-gradient(rgba(244, 63, 94, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(244, 63, 94, 0.12) 1px, transparent 1px),
+    linear-gradient(rgba(244, 63, 94, 0.35) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(244, 63, 94, 0.35) 1px, transparent 1px);
+  background-size: 10px 10px, 10px 10px, 50px 50px, 50px 50px;
+}
